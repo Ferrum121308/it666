@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>base标签</title>
+        <!-- 
+            base标签：
+                作用：专门统一指定当前网页中的超链接的打开方式（新选项卡或当前页面）
+                注意：
+                    1.必须写在header标签内
+                    2.如果base标签中指定了target属性，a标签中也指定了target属性，则以a标签中的属性为准
+         -->
+        <base target="_blank" />
+	</head>
+	<body>
+        <a href="https://account.bilibili.com/big?spm_id_from=333.1007.0.0">大会员</a>
+        <a href="https://message.bilibili.com/?spm_id_from=333.1007.0.0#/reply">消息</a>
+        <a href="https://t.bilibili.com/?spm_id_from=333.1007.0.0" target="_self">动态</a>
+        <a href="https://space.bilibili.com/388742569/favlist?spm_id_from=333.1007.0.0">收藏</a>
+        <a href="https://www.bilibili.com/account/history?spm_id_from=333.1007.0.0">历史</a>
+    </body>
+</html>
